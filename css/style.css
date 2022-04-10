@@ -1,48 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Poppins&display=swap');
 * {
     margin: 0;
     box-sizing: border-box;
     padding: 0;
     outline: none;
 }
+:root {
+    --noto: 'Noto Sans', sans-serif;
+}
 html {
     font-size: 62.5%;
-}
-.nav {
-    display: flex;
-    width: 95%;
-    border-radius: 20px;
-    margin: auto;
-    height: 50px;
-    background-color: #222629;
-    margin-top: 10px;
+    font-family: var(--noto);
     
-    
-}
-.section1{
- width: 75%;
- 
-}
-.section2 {
-    width: 25%;
-    display: flex;
-   overflow: hidden;
-   border-radius: 0px 15px 15px 0px;
-    
-}
-.search {
-    width: 80%;
-    padding: 5px;
-    font-size: 2rem;
-    border: none;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-}
-.searchB {
-    margin-left: 0px;
-    background-color: white;
-    border: none;
-    cursor: pointer;
-    width: 20%;
-    background-color: rgb(255, 195, 195);
-    font-size: 2.5rem;
 }
