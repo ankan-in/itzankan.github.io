@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Poppins&display=swap');
 :root {
     --noto: 'Noto Sans', sans-serif;
-}
+} 
+/* * {
+  */
 .nav {
     display: flex;
     width: 100%;
