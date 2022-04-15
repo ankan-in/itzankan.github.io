@@ -1,6 +1,7 @@
 var ham = document.querySelector(".hamburger")
 ham.onclick = exp;
 const searchB = document.querySelector(".searchB")
+const search = document.querySelector(".search")
 function exp() {
     // const bar1 = document.querySelector(".bar1")
     // const bar2 = document.querySelector(".bar2")
@@ -34,8 +35,15 @@ function exp() {
     searchB.classList.toggle("fixSB")
     
 }
-searchB.onclick = search;
-    function search() {
+searchB.onclick = searchh;
+    function searchh() {
         var sI = document.querySelector(".search").value;
-        window.open(`../${sI}`)
+        window.open(`../${sI}`,`_blank`)
     }
+    
+    search.onkeydown = searchFilter;
+function searchFilter(e) {
+    if (e.key === `Enter`) {
+       searchh();
+    }
+}
