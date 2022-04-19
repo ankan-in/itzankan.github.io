@@ -20,7 +20,9 @@ html {
     background-color: #0f151a;   
     transition: 0.5s linear;
     position: sticky;
-    
+    /* overflow: auto; */
+
+ 
 }
 .section1{
  width: 60%;
@@ -46,7 +48,7 @@ html {
     font-size: 1.8rem;
     border: none;
     height: 30px;
-    background-color: #0f151a;
+    background-color: transparent;
     color: white;
     border: 1px solid white;
         /* border-top: 1px solid black;
@@ -140,7 +142,9 @@ html {
 }
 .sfex {
      width: 80%;
-     justify-content: space-between;
+     /* justify-content: space-evenly; */
+     gap: 10px;
+     margin-top: 10px;
 }
 .fixSB {
     display: flex;
@@ -155,8 +159,8 @@ html {
     .nav 
     {
         position: absolute;
-        background-color: #232a30;
-        border-bottom: 2px solid white;
+        background-color: #061827;
+        border-bottom: 1px solid white;
     }
   .hamburger {
       display: flex;
@@ -167,10 +171,8 @@ html {
 .sfix {
     flex-direction: column;
 }
-.section1 ul li a:hover {
-    color: #0f151a;
-    
-  background-color: white;
+.section1 ul li a{
+   border: 2px solid rgb(255, 255, 255);
 }
 .navfiller {
     display: block;
