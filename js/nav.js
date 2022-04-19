@@ -38,7 +38,7 @@ function exp() {
 searchB.onclick = searchh;
     function searchh() {
         var sI = document.querySelector(".search").value;
-        window.open(`../${sI}`,`_blank`)
+        window.open(`../${sI}`,"_self")
     }
     
     search.onkeydown = searchFilter;
