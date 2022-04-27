@@ -13,7 +13,7 @@ function exp() {
     var nav = document.querySelector(".nav")
     var s1 = document.querySelector(".section1")
     var s2 = document.querySelector(".section2")
-    
+
     var navl = document.querySelector(".navl")
     s1.classList.toggle('svis')
     navl.classList.toggle('sfix')
@@ -22,28 +22,28 @@ function exp() {
 
 
     if (nav.innerHTML.includes("ul")) {
-        nav.classList.toggle('navexpand') 
-    }else {
+        nav.classList.toggle('navexpand')
+    } else {
 
-    
-    setTimeout(() => {
-        nav.classList.toggle('navexpand') 
-     }, 30);
- 
+
+        setTimeout(() => {
+            nav.classList.toggle('navexpand')
+        }, 30);
+
     }
-     
+
     searchB.classList.toggle("fixSB")
-    
+
 }
 searchB.onclick = searchh;
-    function searchh() {
-        var sI = document.querySelector(".search").value;
-        window.open(`../${sI}`,"_self")
-    }
-    
-    search.onkeydown = searchFilter;
+function searchh() {
+    var sI = document.querySelector(".search").value;
+    window.open(`../${sI}`, "_self")
+}
+
+search.onkeydown = searchFilter;
 function searchFilter(e) {
     if (e.key === `Enter`) {
-       searchh();
+        searchh();
     }
 }

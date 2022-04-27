@@ -1,11 +1,14 @@
 <div class="nav">
         <section class="section section1">
-          <ul class="navl">
-            <li><a href="index.html" style="text-decoration: none; --colo: rgb(255, 28, 28);" class="navI navI1">HOME</a> </li>
-            <li><a href="" style="text-decoration: none; --colo: rgb(0, 255, 0);" class="navI navI2">PROJECTS</a> </li>
-            <li><a href="index.html#aboutm" style="text-decoration: none; --colo: rgb(255, 231, 14);" class="navI navI4">ABOUT ME</a> </li>
-            <li><a href="" style="text-decoration: none; --colo: rgb(247, 0, 255);" class="navI navI3">CONTACT ME</a> </li>
-          </ul>
+           <ul class="navl">
+                <li><a href="index.html" style="text-decoration: none; --colo: rgb(255, 28, 28);" class="navI navI1">HOME</a>
+                </li>
+               
+                <li><a href="index.html#invis2" style="text-decoration: none; --colo: rgb(255, 231, 14);" class="navI navI4">ABOUT ME</a>
+                </li>
+                <li><a href="#invis3" style="text-decoration: none; --colo: rgb(247, 0, 255);" class="navI navI3">CONTACT
+                        ME</a> </li>
+            </ul>
         </section>
         <section class="section section2">
             <input type="text" class="search" id="search">
